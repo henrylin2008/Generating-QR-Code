@@ -10,8 +10,8 @@ import qrcode
 def encode_qr_code(data):
     data = "Please visit the site: https://google.com"
     img = qrcode.make(data)     # Encode the link
-    print(type(img))
-    img.save("image1.jpg")
+    print(type(img))      # type of the image
+    img.save("image1.jpg")  # save the QR code
 
 # How QR Code display
 # qr = qrcode.QRCode(
