@@ -1,0 +1,1 @@
+This script auto-generates a QR code for input link 
